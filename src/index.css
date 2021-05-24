@@ -147,6 +147,9 @@ h4 {
 }
 
 @media (max-width: 769px) {
+  .brand-name {
+    font-size: 150%;
+  }
   .logo {
     width: 45vw;
   }
