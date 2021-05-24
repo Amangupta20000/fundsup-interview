@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fundsup-interview/static/css/main.6da15813.chunk.css",
+    "main.js": "/fundsup-interview/static/js/main.18e91ebf.chunk.js",
+    "main.js.map": "/fundsup-interview/static/js/main.18e91ebf.chunk.js.map",
+    "runtime-main.js": "/fundsup-interview/static/js/runtime-main.970195c4.js",
+    "runtime-main.js.map": "/fundsup-interview/static/js/runtime-main.970195c4.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/fundsup-interview/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.0d2b4eec.chunk.js": "/fundsup-interview/static/js/2.0d2b4eec.chunk.js",
+    "static/js/2.0d2b4eec.chunk.js.map": "/fundsup-interview/static/js/2.0d2b4eec.chunk.js.map",
+    "index.html": "/fundsup-interview/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/fundsup-interview/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.6da15813.chunk.css.map": "/fundsup-interview/static/css/main.6da15813.chunk.css.map",
+    "static/js/2.0d2b4eec.chunk.js.LICENSE.txt": "/fundsup-interview/static/js/2.0d2b4eec.chunk.js.LICENSE.txt",
+    "static/media/home.79bdf221.svg": "/fundsup-interview/static/media/home.79bdf221.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.970195c4.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.0d2b4eec.chunk.js",
+    "static/css/main.6da15813.chunk.css",
+    "static/js/main.18e91ebf.chunk.js"
+  ]
+}
