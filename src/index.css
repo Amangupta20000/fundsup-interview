@@ -28,7 +28,7 @@
     margin: 0 100px 0 100px;
   }
   .navbar-nav {
-    position: absolute;
+    position: absolute !important;
     right: 0;
   }
   .nav-item {
@@ -147,11 +147,17 @@ h4 {
 }
 
 @media (max-width: 769px) {
+  .navbar-toggler {
+    padding-top: 0.8vw !important;
+  }
+  .navbar {
+    position: absolute !important;
+  }
   .brand-name {
     font-size: 150%;
   }
   .logo {
-    width: 45vw;
+    width: 40vw;
   }
   .pt-5 {
     padding: 0 !important;
@@ -168,4 +174,24 @@ h4 {
   font-family: "GT America Extended", Sans-serif;
   text-align: center;
   padding-top: 50px;
+}
+@media (max-width: 991px) {
+  .navbar {
+    position: absolute !important;
+  }
+  .pt-5 {
+    padding: 0 !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: normal;
+  }
+  .menu_active {
+    color: #6948c5 !important;
+  }
+  .commonClass {
+    font-family: "GT America Extended", Sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
 }
