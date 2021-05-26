@@ -28,7 +28,7 @@
     margin: 0 100px 0 100px;
   }
   .navbar-nav {
-    position: absolute !important;
+    position: absolute;
     right: 0;
   }
   .nav-item {
@@ -147,17 +147,11 @@ h4 {
 }
 
 @media (max-width: 769px) {
-  .navbar-toggler {
-    padding-top: 0.8vw !important;
-  }
-  .navbar {
-    position: absolute !important;
-  }
   .brand-name {
     font-size: 150%;
   }
   .logo {
-    width: 40vw;
+    width: 45vw;
   }
   .pt-5 {
     padding: 0 !important;
@@ -175,23 +169,24 @@ h4 {
   text-align: center;
   padding-top: 50px;
 }
+
 @media (max-width: 991px) {
-  .navbar {
-    position: absolute !important;
+  .fixedFooter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
   }
-  .pt-5 {
-    padding: 0 !important;
+  .navbar-toggler-icon {
+    width: 1.7em !important;
+    /* right: 15px !important; */
+    margin: 5px !important;
   }
-  .navbar-light .navbar-nav .nav-link {
-    color: black;
-    font-weight: normal;
+  .navbar-light .navbar-toggler {
+    right: 15px;
+    top: 40px !important;
   }
-  .menu_active {
-    color: #6948c5 !important;
-  }
-  .commonClass {
-    font-family: "GT America Extended", Sans-serif;
-    text-align: center;
-    padding-top: 50px;
+  .container-fluid {
+    padding: 20px 0;
   }
 }

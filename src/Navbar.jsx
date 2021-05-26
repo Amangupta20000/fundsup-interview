@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from './images/logo.png'
-
+import Signup from './Signup';
 
 function Navbar() {
     return (
@@ -13,7 +13,7 @@ function Navbar() {
                 
 
 
-        <nav className="navbar navbar-expand-lg fixed-top mx-5 navbar-light  ">
+        <nav className="navbar navbar-expand-lg fixedFooter navbar-light  ">
         <div className="container-fluid ">
           <NavLink exact className="navbar-brand " to='/'><img src={logo} className="logo" alt="" /></NavLink>
           <button className="navbar-toggler " type="button" data-bs-toggle="collapse" 
